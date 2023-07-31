@@ -19,6 +19,3 @@ jobs:
         env:
           GLADOS: ${{ secrets.GLADOS }}
           NOTIFY: ${{ secrets.NOTIFY }}
-          GLADOS: ${{ secrets.GLADOS001 }}
-          GLADOS: ${{ secrets.GLADOS002 }}
-          NOTIFY: ${{ secrets.NOTIFY }}
