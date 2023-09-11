@@ -1,12 +1,12 @@
-name: run
+#name: run
+#
+#on:
+#  workflow_dispatch:
+#  push:
+#  schedule:
+#    - cron: 01 16 * * *
 
-on:
-  workflow_dispatch:
-  push:
-  schedule:
-    - cron: 01 16 * * *
-
-jobs:
+#jobs:
   run:
     runs-on: ubuntu-latest
     steps:
